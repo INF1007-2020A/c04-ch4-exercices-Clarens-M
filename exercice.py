@@ -16,7 +16,8 @@ def remove_third_char(string: str) -> str:
         for c in string:
             if i != 3:
                 liste.append(c)
-            i = 
+                i += 1
+            else
     pass
 
 
