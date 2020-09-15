@@ -19,6 +19,7 @@ def remove_third_char(string: str) -> str:
                 i += 1
             else:
                 i += 1
+    string_
     return string_sans_3
     pass
 
