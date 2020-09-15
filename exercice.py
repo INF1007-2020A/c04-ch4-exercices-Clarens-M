@@ -19,7 +19,7 @@ def remove_third_char(string: str) -> str:
                 i += 1
             else:
                 i += 1
-    return str(liste)
+    return 
 
 
 def replace_char(string: str, old_char: str, new_char: str) -> str:
