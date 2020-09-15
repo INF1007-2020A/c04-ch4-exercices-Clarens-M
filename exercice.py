@@ -48,8 +48,8 @@ def get_number_of_words(sentence: str, word: str) -> int:
     for c in sentence:
         if c != " ":
             mot += c
-        elif mot == word:
-            i += 1
+            if mot == word:
+                i += 1
         else:
             mot = ""
     return i
