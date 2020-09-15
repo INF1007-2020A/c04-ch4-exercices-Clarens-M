@@ -28,9 +28,9 @@ def replace_char(string: str, old_char: str, new_char: str) -> str:
         if c == old_char:
             liste += new_char
         else:
-            liste += c
+            liste += old_char
     new_string = liste.join()
-    return new_string
+    return liste
 
 
 def get_number_of_char(string: str, char: str) -> int:
