@@ -50,6 +50,8 @@ def get_number_of_words(sentence: str, word: str) -> int:
             mot += c
         elif mot == word:
             i += 1
+        else:
+            mot =
     return i
 
 
