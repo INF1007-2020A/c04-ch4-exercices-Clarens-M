@@ -31,8 +31,7 @@ def replace_char(string: str, old_char: str, new_char: str) -> str:
         else:
         liste.append(c)
     new_string = str(liste)
-    
-    pass
+    return new_string
 
 
 def get_number_of_char(string: str, char: str) -> int:
