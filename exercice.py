@@ -24,10 +24,11 @@ def remove_third_char(string: str) -> str:
 
 
 def replace_char(string: str, old_char: str, new_char: str) -> str:
-    liste = 
+    liste = []
     for c in string:
         if c == old_char:
-            liste
+            liste.append(new_char)
+            
     pass
 
 
