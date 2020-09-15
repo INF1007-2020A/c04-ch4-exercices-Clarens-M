@@ -49,7 +49,7 @@ def get_number_of_words(sentence: str, word: str) -> int:
         if c != " ":
             mot += c
         elif mot == word:
-            
+            i += 1
     pass
 
 
