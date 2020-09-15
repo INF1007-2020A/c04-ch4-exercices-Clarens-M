@@ -11,11 +11,11 @@ def is_even_len(string: str) -> bool:
 
 def remove_third_char(string: str) -> str:
     if len(string) >= 3:
-        liste = []
+        liste = ""
         i = 0
         for c in string:
             if i != 3:
-                liste.append(c)
+                liste += c
                 i += 1
             else:
                 i += 1
