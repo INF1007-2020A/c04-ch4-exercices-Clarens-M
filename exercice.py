@@ -51,7 +51,7 @@ def get_number_of_words(sentence: str, word: str) -> int:
         elif mot == word:
             i += 1
         else:
-            mot =
+            mot = ""
     return i
 
 
