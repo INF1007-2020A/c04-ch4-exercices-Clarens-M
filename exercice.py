@@ -20,9 +20,8 @@ def remove_third_char(string: str) -> str:
 #            else:
 #                i += 1
     début = string[0:2]
-    fin = 
-    return liste
-
+    fin = string[3:]
+    return strinf
 
 def replace_char(string: str, old_char: str, new_char: str) -> str:
     liste = ""
