@@ -28,7 +28,8 @@ def replace_char(string: str, old_char: str, new_char: str) -> str:
     for c in string:
         if c == old_char:
             liste.append(new_char)
-            
+        else:
+        liste.append
     pass
 
 
