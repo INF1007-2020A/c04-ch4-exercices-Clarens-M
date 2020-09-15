@@ -19,7 +19,8 @@ def remove_third_char(string: str) -> str:
 #                i += 1
 #            else:
 #                i += 1
-    début = string[0:]
+    début = string[0:2]
+    fin = 
     return liste
 
 
