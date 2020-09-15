@@ -26,7 +26,7 @@ def replace_char(string: str, old_char: str, new_char: str) -> str:
     liste = ""
     for c in string:
         if c == old_char:
-            liste
+            liste += new_char
         else:
             liste.append(c)
     new_string = liste.join()
