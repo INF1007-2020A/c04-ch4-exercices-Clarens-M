@@ -29,7 +29,6 @@ def replace_char(string: str, old_char: str, new_char: str) -> str:
             liste += new_char
         else:
             liste += old_char
-    new_string = liste.join()
     return liste
 
 
