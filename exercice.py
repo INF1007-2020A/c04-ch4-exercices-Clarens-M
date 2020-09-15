@@ -14,11 +14,12 @@ def remove_third_char(string: str) -> str:
 #        liste = ""
 #        i = 0
 #        for c in string:
-            if i != 2:
-                liste += c
-                i += 1
-            else:
-                i += 1
+#            if i != 2:
+#                liste += c
+#                i += 1
+#            else:
+#                i += 1
+    
     return liste
 
 
