@@ -43,11 +43,12 @@ def get_number_of_char(string: str, char: str) -> int:
 
 
 def get_number_of_words(sentence: str, word: str) -> int:
+    i = 0
     mot = ""
     for c in sentence:
         if c != " ":
             mot += c
-            
+        else
     pass
 
 
