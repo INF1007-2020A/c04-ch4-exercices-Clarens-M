@@ -44,7 +44,8 @@ def get_number_of_char(string: str, char: str) -> int:
 
 def get_number_of_words(sentence: str, word: str) -> int:
     for c in sentence:
-        while c != " "
+        while c != " ":
+            
     pass
 
 
