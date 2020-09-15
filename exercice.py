@@ -29,7 +29,7 @@ def replace_char(string: str, old_char: str, new_char: str) -> str:
         if c == old_char:
             liste.append(new_char)
         else:
-        liste.append(c)
+            liste.append(c)
     new_string = str(liste)
     return new_string
 
